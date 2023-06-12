@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500;700&family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+    --cor-bg: #FFFFFF;
+    --cor-principal: #333333;
+    --cor-texto: #4F4F4F;
+    --cor-rodape: #BDBDBD;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-bg);
+    font-family: 'Space Mono', monospace;
+    font-size: 1.5rem;
+}
+
+.cabecalho__titulo {
+    margin: 2.5rem 0 0 4.8rem;
+    font-family: 'Inconsolata';
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.container {    
+    height: 89vh;
+    display: grid;
+    grid-template-columns: 50% 50%;       
+}
+
+.erro {
+    align-items: center;
+    margin: 0 7.43rem 0 4.8rem;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 4rem;
+    color: var(--cor-principal);
+    margin-bottom: 2.25rem;
+
+}
+
+.descricao__texto {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--cor-texto);
+    margin-bottom: 4rem;
+}
+
+.descricao__botao {
+    padding: 1.5rem 2.6rem;
+    background-color: var(--cor-principal);
+    font-weight: 700;
+    font-size: .87rem;
+    color: var(--cor-bg);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.descricao__botao:hover {
+    background-color: var(--cor-texto)
+}
+
+
+.rodape p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .87rem;
+    font-weight: 500;
+    color: var(--cor-rodape);
+    text-align: center;
+    margin-bottom: 1.5rem;    
+}
+
+.rodape__destaque {
+    font-weight: 700;
+}
+
+@media (max-width: 1300px) {
+    .erro__imagem {
+        width: 90%;        
+    }
+}
+
+@media (max-width: 800px) {
+
+   .container {
+        display: flex;
+        flex-direction: column;            
+   }
+
+   .erro__imagem {
+    margin: 2rem 0 1rem 0;
+   }
+
+    .descricao__titulo {
+        font-size: 3rem;
+    }
+
+    .descricao__texto {
+        font-size: 1.12rem;
+    }
+}
+    @media (max-width: 450px) {
+             
+        .cabecalho__titulo {
+            margin: 1.25rem 0 0 1.5rem;
+            }
+
+        .erro{
+            margin: 0 0 0 1rem;
+        }    
+        
+        .erro__imagem {
+            width: 286px;
+         
+            height: 220px;
+        }
+
+        .descricao__titulo {
+            margin-bottom: 1.8rem;
+        }
+        
+    }
+        
+        
