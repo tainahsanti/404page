@@ -13,7 +13,7 @@
 ## Descrição do projeto
 Projeto criado por meio do desafio 404 Not Found do site devChallenges. 
 
-O desafio concistia em criar uma página de erro 404 not found responsiva testando minhas habilidades basicas de HTML e CSS.
+O desafio consistia em criar uma página de erro 404 not found responsiva testando minhas habilidades basicas de HTML e CSS.
 
 ## Dificuldades do projeto
 
